@@ -347,7 +347,7 @@ public void startAnimation() {
 
 创建了两个属性动画，一个用来控制半径的变化，一个用来控制旋转角度的变化。
 
-FaceOverlay.java :
+FaceOverlayView.java :
 
 该自定义View是用于在人脸检测时，对检测到的人脸，绘制一个人脸区域矩形框。人脸数据由`setFaces()` 传入，传入后调用`invalidate()` 进行重绘。
 
